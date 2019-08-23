@@ -1,0 +1,1 @@
+// This section displays all the restaurants entered or visited by the user
