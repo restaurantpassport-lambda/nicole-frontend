@@ -5,11 +5,11 @@ import * as Yup from "yup";
 import axios from "axios";
 
 const RestaurantInput = ({ errors, touched, values, status }) => {
-    const [rest, setRest] = useState([]);
+    const [newRes, setNewRes] = useState([]);
 
     useEffect(() => {
       if (status) {
-        setRest([...rest, status]);
+        setNewRes([...newRes, status]);
       }
     }, [status]);
 
